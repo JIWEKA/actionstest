@@ -13,8 +13,7 @@ jobs:
            run: |
             pwd
             node -v
-             ls -a
-
+            ls -a
          - name: python command
            run: |
              import platform
