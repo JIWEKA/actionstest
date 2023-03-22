@@ -11,9 +11,9 @@ jobs:
            run: echo "Hello"
          - name: Multi line string
            run: |
-              pwd
-              node -v
-              ls -a
+             pwd
+             node -v
+             ls -a
          - name: python command
            run: |
              import platform
